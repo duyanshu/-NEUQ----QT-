@@ -1,0 +1,133 @@
+顶点数目 53
+节点名: "科技楼"  对象名： "radioButton"  类型： 0  score: 5 节点编号: 0
+"0"
+节点名: "人文楼"  对象名： "radioButton_2"  类型： 1  score: 5 节点编号: 1
+"1"
+节点名: "体育馆"  对象名： "radioButton_3"  类型： 1  score: 6 节点编号: 2
+"2"
+节点名: "校六 宿舍/食堂"  对象名： "radioButton_4"  类型： 1  score: 6 节点编号: 3
+"3"
+节点名: "大学会馆"  对象名： "radioButton_5"  类型： 0  score: 8 节点编号: 4
+"4"
+节点名: "研究生公寓"  对象名： "radioButton_6"  类型： 0  score: 5 节点编号: 5
+"5"
+节点名: "西篮球场"  对象名： "radioButton_7"  类型： 1  score: 6 节点编号: 6
+"6"
+节点名: "工学馆"  对象名： "radioButton_8"  类型： 0  score: 6 节点编号: 7
+"7"
+节点名: "行政楼"  对象名： "radioButton_9"  类型： 1  score: 8 节点编号: 8
+"8"
+节点名: "鹏远公寓"  对象名： "radioButton_10"  类型： 0  score: 5 节点编号: 9
+"9"
+节点名: "鹏远餐厅"  对象名： "radioButton_11"  类型： 0  score: 4 节点编号: 10
+"10"
+节点名: "第一食堂"  对象名： "radioButton_12"  类型： 0  score: 6 节点编号: 11
+"11"
+节点名: "四/三号公寓"  对象名： "radioButton_13"  类型： 0  score: 5 节点编号: 12
+"12"
+节点名: "鸡鸣湖"  对象名： "radioButton_14"  类型： 1  score: 9 节点编号: 13
+"13"
+节点名: "东篮球场"  对象名： "radioButton_15"  类型： 1  score: 6 节点编号: 14
+"14"
+节点名: "地质楼"  对象名： "radioButton_16"  类型： 0  score: 5 节点编号: 15
+"15"
+节点名: "基础楼"  对象名： "radioButton_17"  类型： 0  score: 5 节点编号: 16
+"16"
+节点名: "图书馆"  对象名： "radioButton_18"  类型： 0  score: 6 节点编号: 17
+"17"
+节点名: "西操场"  对象名： "radioButton_19"  类型： 1  score: 7 节点编号: 18
+"18"
+节点名: "综合楼"  对象名： "radioButton_20"  类型： 0  score: 7 节点编号: 19
+"19"
+节点名: "管理楼"  对象名： "radioButton_21"  类型： 0  score: 5 节点编号: 20
+"20"
+节点名: "五号公寓"  对象名： "radioButton_22"  类型： 0  score: 5 节点编号: 21
+"21"
+节点名: "缘石广场"  对象名： "radioButton_23"  类型： 1  score: 7 节点编号: 22
+"22"
+节点名: "东操场"  对象名： "radioButton_24"  类型： 1  score: 8 节点编号: 23
+"23"
+节点名: "家属区"  对象名： "radioButton_25"  类型： 0  score: 4 节点编号: 24
+"24"
+节点名: "羽毛球/网球场"  对象名： "radioButton_26"  类型： 1  score: 6 节点编号: 25
+"25"
+  "radioButton_27" ：是关节点
+节点名: "undefine"  对象名： "radioButton_27"  类型： 2  score: 5 节点编号: 26
+"26"
+  "radioButton_28" ：是关节点
+节点名: "undefine"  对象名： "radioButton_28"  类型： 2  score: 5 节点编号: 27
+"27"
+  "radioButton_29" ：是关节点
+节点名: "undefine"  对象名： "radioButton_29"  类型： 2  score: 5 节点编号: 28
+"28"
+  "radioButton_30" ：是关节点
+节点名: "undefine"  对象名： "radioButton_30"  类型： 2  score: 5 节点编号: 29
+"29"
+  "radioButton_31" ：是关节点
+节点名: "undefine"  对象名： "radioButton_31"  类型： 2  score: 5 节点编号: 30
+"30"
+  "radioButton_32" ：是关节点
+节点名: "undefine"  对象名： "radioButton_32"  类型： 2  score: 5 节点编号: 31
+"31"
+  "radioButton_33" ：是关节点
+节点名: "undefine"  对象名： "radioButton_33"  类型： 2  score: 5 节点编号: 32
+"32"
+  "radioButton_34" ：是关节点
+节点名: "undefine"  对象名： "radioButton_34"  类型： 2  score: 5 节点编号: 33
+"33"
+  "radioButton_35" ：是关节点
+节点名: "undefine"  对象名： "radioButton_35"  类型： 2  score: 5 节点编号: 34
+"34"
+节点名: "沉思广场"  对象名： "radioButton_36"  类型： 1  score: 10 节点编号: 35
+"35"
+  "radioButton_43" ：是关节点
+节点名: "undefine"  对象名： "radioButton_43"  类型： 2  score: 5 节点编号: 36
+"36"
+  "radioButton_68" ：是关节点
+节点名: "undefine"  对象名： "radioButton_68"  类型： 2  score: 5 节点编号: 37
+"37"
+  "radioButton_69" ：是关节点
+节点名: "undefine"  对象名： "radioButton_69"  类型： 2  score: 5 节点编号: 38
+"38"
+  "radioButton_70" ：是关节点
+节点名: "undefine"  对象名： "radioButton_70"  类型： 2  score: 5 节点编号: 39
+"39"
+  "radioButton_71" ：是关节点
+节点名: "undefine"  对象名： "radioButton_71"  类型： 2  score: 5 节点编号: 40
+"40"
+  "radioButton_72" ：是关节点
+节点名: "undefine"  对象名： "radioButton_72"  类型： 2  score: 5 节点编号: 41
+"41"
+  "radioButton_73" ：是关节点
+节点名: "undefine"  对象名： "radioButton_73"  类型： 2  score: 5 节点编号: 42
+"42"
+  "radioButton_74" ：是关节点
+节点名: "undefine"  对象名： "radioButton_74"  类型： 2  score: 5 节点编号: 43
+"43"
+  "radioButton_75" ：是关节点
+节点名: "undefine"  对象名： "radioButton_75"  类型： 2  score: 5 节点编号: 44
+"44"
+  "radioButton_76" ：是关节点
+节点名: "undefine"  对象名： "radioButton_76"  类型： 2  score: 5 节点编号: 45
+"45"
+  "radioButton_77" ：是关节点
+节点名: "undefine"  对象名： "radioButton_77"  类型： 2  score: 5 节点编号: 46
+"46"
+  "radioButton_78" ：是关节点
+节点名: "undefine"  对象名： "radioButton_78"  类型： 2  score: 5 节点编号: 47
+"47"
+  "radioButton_79" ：是关节点
+节点名: "undefine"  对象名： "radioButton_79"  类型： 2  score: 5 节点编号: 48
+"48"
+  "radioButton_80" ：是关节点
+节点名: "undefine"  对象名： "radioButton_80"  类型： 2  score: 5 节点编号: 49
+"49"
+  "radioButton_81" ：是关节点
+节点名: "undefine"  对象名： "radioButton_81"  类型： 2  score: 5 节点编号: 50
+"50"
+  "radioButton_82" ：是关节点
+节点名: "undefine"  对象名： "radioButton_82"  类型： 2  score: 5 节点编号: 51
+"51"
+  "radioButton_83" ：是关节点
+节点名: "undefine"  对象名： "radioButton_83"  类型： 2  score: 5 节点编号: 52
+"52"

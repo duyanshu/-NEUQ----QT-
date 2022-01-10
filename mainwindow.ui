@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1565</width>
+    <height>1145</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>畅游NEUQ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resources.qrc">
+    <normaloff>:/images/Northeastern_University_(China)_logo.svg</normaloff>:/images/Northeastern_University_(China)_logo.svg</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>32</width>
+    <height>32</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="MapFrame">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>40</y>
+      <width>1111</width>
+      <height>1001</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton{ color: rgb(255, 0, 0); background-color: rgba(255, 255, 255, 0);}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="neuq_map">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>0</y>
+       <width>1111</width>
+       <height>991</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="Resources.qrc">:/images/neuq_map.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="direction">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>151</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="Resources.qrc">:/images/direction.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>700</y>
+       <width>161</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>科技楼
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>750</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>人文楼
+景色评分：5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>540</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>体育馆
+景色评分：6分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>520</y>
+       <width>131</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>校六 宿舍/食堂
+景色评分：6分
+类型:建筑</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_5">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>260</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>大学会馆
+景色评分:8分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_6">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>210</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>研究生公寓
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_7">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>360</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>西篮球场
+景色评分：6分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_8">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>210</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>工学馆
+景色评分:6分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_9">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>260</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>行政楼
+景色评分：8分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_10">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>200</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>鹏远公寓
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_11">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>270</y>
+       <width>111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>鹏远餐厅
+景色评分:4分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_12">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>270</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>第一食堂
+景色评分:6分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_13">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>260</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>四/三号公寓
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_14">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>340</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>鸡鸣湖
+景色评分：9分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_15">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>330</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>东篮球场
+景色评分：6分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_16">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>310</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>地质楼
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_17">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>370</y>
+       <width>101</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>基础楼
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_18">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>400</y>
+       <width>111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>图书馆
+景色评分:6分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_19">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>460</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>西操场
+景色评分：7分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_20">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>综合楼
+景色评分:7分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_21">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>296</y>
+       <width>115</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>管理楼
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_22">
+     <property name="geometry">
+      <rect>
+       <x>990</x>
+       <y>300</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>五号公寓
+景色评分:5分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_23">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>440</y>
+       <width>115</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>缘石广场
+景色评分：7分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_24">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>410</y>
+       <width>111</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>东操场
+景色评分：8分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_25">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>520</y>
+       <width>115</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>家属区
+景色评分:4分
+类型:建筑</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_26">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>460</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>羽毛球/网球场
+景色评分：6分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_27">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>290</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_28">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>220</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_29">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>290</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_30">
+     <property name="geometry">
+      <rect>
+       <x>501</x>
+       <y>330</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_31">
+     <property name="geometry">
+      <rect>
+       <x>405</x>
+       <y>549</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_32">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>580</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_33">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>580</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_34">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>430</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_35">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>292</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_36">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>370</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>沉思广场
+景色评分:10分
+类型：景点</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_43">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>290</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_68">
+     <property name="geometry">
+      <rect>
+       <x>846</x>
+       <y>330</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_69">
+     <property name="geometry">
+      <rect>
+       <x>847</x>
+       <y>390</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_70">
+     <property name="geometry">
+      <rect>
+       <x>847</x>
+       <y>430</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_71">
+     <property name="geometry">
+      <rect>
+       <x>257</x>
+       <y>615</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_72">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>580</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_73">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>643</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_74">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>670</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_75">
+     <property name="geometry">
+      <rect>
+       <x>315</x>
+       <y>750</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_76">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>660</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_77">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>757</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_78">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>708</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_79">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>739</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_80">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>737</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_81">
+     <property name="geometry">
+      <rect>
+       <x>237</x>
+       <y>810</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_82">
+     <property name="geometry">
+      <rect>
+       <x>258</x>
+       <y>824</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_83">
+     <property name="geometry">
+      <rect>
+       <x>253</x>
+       <y>765</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_84">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>700</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_37">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>292</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_38">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>210</y>
+       <width>10</width>
+       <height>10</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>4</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator{width: 10px;height: 10px;padding-left:5px;}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>7</width>
+       <height>7</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="SiteSearchFrame">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>261</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="SiteSearchButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>0</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources.qrc">
+       <normaloff>:/images/SearchIcon.png</normaloff>:/images/SearchIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>34</width>
+       <height>34</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SearchlineEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>搜索景点/建筑  </string>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textSearchEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>261</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;地名	类型	风景评分&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>路线查询</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>301</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="RouteButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>10</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources.qrc">
+       <normaloff>:/images/SearchIcon.png</normaloff>:/images/SearchIcon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>66</width>
+       <height>66</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>36</y>
+       <width>221</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FromLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>输入起点</string>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="TolineEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>输入终点</string>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>291</width>
+       <height>281</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>700</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>自定义</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddSite">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>730</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加建筑/景点</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddWay">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>730</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加道路</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ModifyWayName">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>780</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一键初始化</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ModifySiteName">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>780</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>修改建筑/景点名称</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>840</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="displayVName">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>850</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>景点/建筑名称</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showLaneButt">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>850</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>车行道</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showSidewalkButt">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>900</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>人行道</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showScoreButt">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>900</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>景色评分</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>950</y>
+      <width>311</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>注：人行道显示不包含车行道附近的人行道</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="distSelected">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>300</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>距离优先</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="viewSelected">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>300</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>景色优先</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="compreSelected">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>300</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>综合</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1565</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>联系作者</string>
+    </property>
+    <addaction name="actionname_Du_Yanshu"/>
+    <addaction name="actionEmail_2544823286_qq_com"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../open-file-icon-vector-22894643.jpg</normaloff>../../open-file-icon-vector-22894643.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save as</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionDo">
+   <property name="text">
+    <string>Do</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+  </action>
+  <action name="actionname_Du_Yanshu">
+   <property name="text">
+    <string>name:Yanshu Du</string>
+   </property>
+  </action>
+  <action name="actionEmail_2544823286_qq_com">
+   <property name="text">
+    <string>Email:2544823286@qq.com</string>
+   </property>
+  </action>
+  <action name="actionReDo">
+   <property name="text">
+    <string>ReDo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/neuq_map.jpg</file>
+        <file>images/Northeastern_University_(China)_logo.svg</file>
+        <file>images/images.jfif</file>
+        <file>images/SearchIcon.png</file>
+        <file>images/direction.png</file>
+        <file>EdgeInf.txt</file>
+    </qresource>
+</RCC>
